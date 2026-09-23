@@ -18,3 +18,18 @@ def load_sales(path=DATA_PATH):
     Raises FileNotFoundError if the file does not exist.
     """
     return pd.read_csv(path, parse_dates=["date"])
+
+
+def total_sales(df):
+    """Total revenue across all transactions."""
+    return float(df["total_amount"].sum())
+
+
+def total_orders(df):
+    """Number of distinct orders (an order with several lines counts once)."""
+    return int(df["order_id"].nunique())
+
+
+def format_currency(value):
+    """Format dollars with separators and no cents, e.g. $116,500."""
+    return f"${value:,.0f}"

@@ -11,8 +11,6 @@ Each milestone moves through To Do -> In Progress -> Done.
 ## To Do
 
 ## In Progress
-- [ ] **TASK-5: Test and deploy** (plan steps 9-10)
-  - [ ] Dashboard runs without errors and is deployed to a public URL
 
 ## Done
 - [x] **TASK-1: Project setup and data loading** (plan steps 1-2)
@@ -44,3 +42,11 @@ Each milestone moves through To Do -> In Progress -> Done.
     - [x] App runs locally with `streamlit run app.py`
     - [x] Changes committed with the milestone ID in the message
   - Commit: `52c8d34`
+- [x] **TASK-5: Test and deploy** (plan steps 9-10)
+  - [x] Dashboard runs without errors and is deployed to a public URL
+  - Definition of Done:
+    - [x] Acceptance criteria met
+    - [x] App runs locally with `streamlit run app.py`
+    - [x] Changes committed with the milestone ID in the message
+  - Commit: `9367229`
+  - Live URL: https://sales-dashboard-owsetioko.streamlit.app/

@@ -9,18 +9,18 @@ Each milestone moves through To Do -> In Progress -> Done.
 - [ ] Changes committed with the milestone ID in the message
 
 ## To Do
-- [ ] **TASK-1: Project setup and data loading**
-  - [ ] App runs with `streamlit run app.py` and shows a title
-  - [ ] Loads `data/sales-data.csv`; handles a missing file cleanly
-- [ ] **TASK-2: KPI scorecards**
+- [ ] **TASK-2: KPI scorecards** (plan steps 3-4)
   - [ ] Total Sales and Total Orders shown as formatted metrics
-- [ ] **TASK-3: Sales trend chart**
+- [ ] **TASK-3: Sales trend chart** (plan steps 5-6)
   - [ ] Line chart of sales over time renders from the data
-- [ ] **TASK-4: Category and region breakdowns**
+- [ ] **TASK-4: Category and region breakdowns** (plan steps 7-8)
   - [ ] Bar charts for sales by category and by region, sorted by value
-- [ ] **TASK-5: Test and deploy**
+- [ ] **TASK-5: Test and deploy** (plan steps 9-10)
   - [ ] Dashboard runs without errors and is deployed to a public URL
 
 ## In Progress
+- [ ] **TASK-1: Project setup and data loading** (plan steps 1-2)
+  - [ ] App runs with `streamlit run app.py` and shows a title
+  - [ ] Loads `data/sales-data.csv`; handles a missing file cleanly
 
 ## Done

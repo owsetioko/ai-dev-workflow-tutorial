@@ -7,6 +7,7 @@ from data import (
     format_currency,
     load_sales,
     monthly_sales,
+    sales_by,
     total_orders,
     total_sales,
 )
@@ -64,3 +65,19 @@ def test_monthly_sales_has_twelve_months_in_order(sales):
     # Months must run forwards, or the trend line would zig-zag.
     assert monthly["month"].is_monotonic_increasing
     assert monthly["sales"].sum() == pytest.approx(116500.21)
+
+
+def test_sales_by_category_sorted_highest_first(sales):
+    by_category = sales_by(sales, "category")
+    assert list(by_category.columns) == ["category", "sales"]
+    assert len(by_category) == 5
+    assert by_category["category"].iloc[0] == "Electronics"
+    assert by_category["sales"].iloc[0] == pytest.approx(42683.67)
+    assert by_category["category"].iloc[-1] == "Accessories"
+    assert by_category["sales"].iloc[-1] == pytest.approx(11162.64)
+    assert by_category["sales"].is_monotonic_decreasing
+
+
+def test_sales_by_region_sorted_highest_first(sales):
+    by_region = sales_by(sales, "region")
+    assert list(by_region["region"]) == ["North", "West", "East", "South"]

@@ -33,3 +33,15 @@ def total_orders(df):
 def format_currency(value):
     """Format dollars with separators and no cents, e.g. $116,500."""
     return f"${value:,.0f}"
+
+
+def monthly_sales(df):
+    """Total sales for each calendar month, oldest month first.
+
+    Each month is labelled by its first day (e.g. 2024-01-01), which Plotly
+    draws as a proper date axis.
+    """
+    months = df["date"].dt.to_period("M").dt.to_timestamp()
+    monthly = df.groupby(months)["total_amount"].sum().reset_index()
+    monthly.columns = ["month", "sales"]
+    return monthly

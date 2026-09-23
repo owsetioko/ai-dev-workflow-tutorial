@@ -9,8 +9,6 @@ Each milestone moves through To Do -> In Progress -> Done.
 - [ ] Changes committed with the milestone ID in the message
 
 ## To Do
-- [ ] **TASK-2: KPI scorecards** (plan steps 3-4)
-  - [ ] Total Sales and Total Orders shown as formatted metrics
 - [ ] **TASK-3: Sales trend chart** (plan steps 5-6)
   - [ ] Line chart of sales over time renders from the data
 - [ ] **TASK-4: Category and region breakdowns** (plan steps 7-8)
@@ -19,6 +17,8 @@ Each milestone moves through To Do -> In Progress -> Done.
   - [ ] Dashboard runs without errors and is deployed to a public URL
 
 ## In Progress
+- [ ] **TASK-2: KPI scorecards** (plan steps 3-4)
+  - [ ] Total Sales and Total Orders shown as formatted metrics
 
 ## Done
 - [x] **TASK-1: Project setup and data loading** (plan steps 1-2)

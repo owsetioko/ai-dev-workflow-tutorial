@@ -13,8 +13,6 @@ Each milestone moves through To Do -> In Progress -> Done.
   - [ ] Dashboard runs without errors and is deployed to a public URL
 
 ## In Progress
-- [ ] **TASK-4: Category and region breakdowns** (plan steps 7-8)
-  - [ ] Bar charts for sales by category and by region, sorted by value
 
 ## Done
 - [x] **TASK-1: Project setup and data loading** (plan steps 1-2)
@@ -39,3 +37,10 @@ Each milestone moves through To Do -> In Progress -> Done.
     - [x] App runs locally with `streamlit run app.py`
     - [x] Changes committed with the milestone ID in the message
   - Commit: `2465f6b`
+- [x] **TASK-4: Category and region breakdowns** (plan steps 7-8)
+  - [x] Bar charts for sales by category and by region, sorted by value
+  - Definition of Done:
+    - [x] Acceptance criteria met
+    - [x] App runs locally with `streamlit run app.py`
+    - [x] Changes committed with the milestone ID in the message
+  - Commit: `52c8d34`

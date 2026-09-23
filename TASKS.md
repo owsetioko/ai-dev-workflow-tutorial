@@ -9,10 +9,10 @@ Each milestone moves through To Do -> In Progress -> Done.
 - [ ] Changes committed with the milestone ID in the message
 
 ## To Do
-- [ ] **TASK-5: Test and deploy** (plan steps 9-10)
-  - [ ] Dashboard runs without errors and is deployed to a public URL
 
 ## In Progress
+- [ ] **TASK-5: Test and deploy** (plan steps 9-10)
+  - [ ] Dashboard runs without errors and is deployed to a public URL
 
 ## Done
 - [x] **TASK-1: Project setup and data loading** (plan steps 1-2)

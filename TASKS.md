@@ -15,8 +15,6 @@ Each milestone moves through To Do -> In Progress -> Done.
   - [ ] Dashboard runs without errors and is deployed to a public URL
 
 ## In Progress
-- [ ] **TASK-3: Sales trend chart** (plan steps 5-6)
-  - [ ] Line chart of sales over time renders from the data
 
 ## Done
 - [x] **TASK-1: Project setup and data loading** (plan steps 1-2)
@@ -34,3 +32,10 @@ Each milestone moves through To Do -> In Progress -> Done.
     - [x] App runs locally with `streamlit run app.py`
     - [x] Changes committed with the milestone ID in the message
   - Commit: `c0ada55`
+- [x] **TASK-3: Sales trend chart** (plan steps 5-6)
+  - [x] Line chart of sales over time renders from the data
+  - Definition of Done:
+    - [x] Acceptance criteria met
+    - [x] App runs locally with `streamlit run app.py`
+    - [x] Changes committed with the milestone ID in the message
+  - Commit: `2465f6b`

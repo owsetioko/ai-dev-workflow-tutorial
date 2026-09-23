@@ -19,8 +19,13 @@ Each milestone moves through To Do -> In Progress -> Done.
   - [ ] Dashboard runs without errors and is deployed to a public URL
 
 ## In Progress
-- [ ] **TASK-1: Project setup and data loading** (plan steps 1-2)
-  - [ ] App runs with `streamlit run app.py` and shows a title
-  - [ ] Loads `data/sales-data.csv`; handles a missing file cleanly
 
 ## Done
+- [x] **TASK-1: Project setup and data loading** (plan steps 1-2)
+  - [x] App runs with `streamlit run app.py` and shows a title
+  - [x] Loads `data/sales-data.csv`; handles a missing file cleanly
+  - Definition of Done:
+    - [x] Acceptance criteria met
+    - [x] App runs locally with `streamlit run app.py`
+    - [x] Changes committed with the milestone ID in the message
+  - Commit: `a495e49`

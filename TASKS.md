@@ -17,8 +17,6 @@ Each milestone moves through To Do -> In Progress -> Done.
   - [ ] Dashboard runs without errors and is deployed to a public URL
 
 ## In Progress
-- [ ] **TASK-2: KPI scorecards** (plan steps 3-4)
-  - [ ] Total Sales and Total Orders shown as formatted metrics
 
 ## Done
 - [x] **TASK-1: Project setup and data loading** (plan steps 1-2)
@@ -29,3 +27,10 @@ Each milestone moves through To Do -> In Progress -> Done.
     - [x] App runs locally with `streamlit run app.py`
     - [x] Changes committed with the milestone ID in the message
   - Commit: `a495e49`
+- [x] **TASK-2: KPI scorecards** (plan steps 3-4)
+  - [x] Total Sales and Total Orders shown as formatted metrics
+  - Definition of Done:
+    - [x] Acceptance criteria met
+    - [x] App runs locally with `streamlit run app.py`
+    - [x] Changes committed with the milestone ID in the message
+  - Commit: `c0ada55`
